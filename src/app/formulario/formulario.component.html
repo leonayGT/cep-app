@@ -1,0 +1,7 @@
+<form>
+    <input type="text" (blur)="getCepAPI()" placeholder="CEP" [formControl]="name" maxlength="8" minlength="8" required>
+    <input type="text" placeholder="Bairro" [value]="bairro">
+    <input type="text" placeholder="Cidade" [value]="cidade">
+    <input type="text" placeholder="Estado" [value]="estado">
+    <button type="submit"></button>
+</form>
